@@ -1,5 +1,5 @@
 {
-	"author" : "张智超",
+	"author" : "Alex Cheung",
 	"commands" : [
 		{
 			"script" : "script.js",
