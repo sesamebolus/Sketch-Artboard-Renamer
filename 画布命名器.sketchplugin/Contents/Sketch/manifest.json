@@ -1,0 +1,51 @@
+{
+	"author" : "张智超",
+	"commands" : [
+		{
+			"script" : "script.js",
+			"name" : "从 Symbol 到 Artboard（带序号）",
+			"handlers" : {
+			"run" : "symbol_to_artboard_with_number"
+			},
+			"identifier" : "symbol_to_artboard_with_number"
+		},{
+			"script" : "script.js",
+			"name" : "从 Symbol 到 Artboard（不带序号）",
+			"handlers" : {
+				"run" : "symbol_to_artboard_without_number"
+			},
+			"identifier" : "symbol_to_artboard_without_number"
+		},{
+			"script" : "script.js",
+			"name" : "从 Artboard 到 Symbol（带序号）",
+			"handlers" : {
+				"run" : "artboard_to_symbol_with_number"
+			},
+			"identifier" : "artboard_to_symbol_with_number"
+		},{
+			"script" : "script.js",
+			"name" : "从 Artboard 到 Symbol（不带序号）",
+			"handlers" : {
+				"run" : "artboard_to_symbol_without_number"
+			},
+			"identifier" : "artboard_to_symbol_without_number"
+		}
+	],
+	"menu" : {
+	"title" : "画布命名器",
+	"items" : [
+		"symbol_to_artboard_with_number",
+		"symbol_to_artboard_without_number",
+		"-",
+		"artboard_to_symbol_with_number",
+		"artboard_to_symbol_without_number"
+	],
+	"isRoot": false
+	},
+	"identifier" : "com.itisalex.sketch.artboad-renamer",
+	"version" : "1.0",
+	"icon" : "",
+	"description" : "用 Symbol 的值来重命名画板，或者反之",
+	"authorEmail" : "itisalex@163.com",
+	"name" : "画布命名器"
+}
